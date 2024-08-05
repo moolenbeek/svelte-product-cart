@@ -12,7 +12,7 @@
     Price: ${product.price}
   </div>
   <div class="card-footer">
-    <button class="p-2 rounded variant-glass-primary">Add</button>
+    <button class="p-2 rounded variant-glass-success">Add</button>
     <button class="p-2 rounded variant-glass-error">Remove</button>
   </div>
 </div>
