@@ -26,7 +26,9 @@
 			<h1>Svelte Store</h1>
 		</div>
 		{#each products as product}
-		<ProductCard product={product} />
+		<div class="p-2">
+			<ProductCard product={product} />
+		</div>
 		{/each}
 		<div class="p-2 col-span-3">
 			<button class="btn variant-filled-primary">Checkout</button>
